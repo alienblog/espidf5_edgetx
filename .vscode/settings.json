@@ -3,5 +3,6 @@
   "idf.flashType": "UART",
   "idf.portWin": "COM3",
   "idf.port": "/dev/ttyACM0",
-  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"]
+  "idf.openOcdConfigs": ["board/esp32s3-builtin.cfg"],
+  "C_Cpp.default.compilerPath": "C:\\Users\\alien\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2022r1-11.2.0\\xtensa-esp32s3-elf\\bin\\xtensa-esp32s3-elf-gcc.exe"
 }

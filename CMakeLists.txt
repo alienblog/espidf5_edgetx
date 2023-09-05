@@ -5,6 +5,7 @@ cmake_minimum_required(VERSION 3.16)
 add_definitions(-DLV_CONF_KCONFIG_EXTERNAL_INCLUDE="lv_conf_edgetx.h")
 list(APPEND EXTRA_COMPONENT_DIRS "${CMAKE_SOURCE_DIR}/main/edgetx/radio/src/thirdparty/libopenui/thirdparty/lvgl")
 add_definitions(-I${CMAKE_SOURCE_DIR})
+add_definitions(-DTRANSLATIONS_CN)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
